@@ -1,8 +1,12 @@
   C'est une deuxieme version, une version à partir de mon code et Thilleli;
   pour voir les classes faut aller dans src->main/java/fr/univ/etc...
-  vous pouvez l'ouvrir sur codespace et le compiler sur terminal avec:javac -cp "lib/gson-2.10.1.jar" -d target/classes $(find src/main/java -name "*.java")
+  
+  vous pouvez l'ouvrir sur codespace et le compiler sur terminal avec:
+  javac -cp "lib/gson-2.10.1.jar" -d target/classes $(find src/main/java -name "*.java")
 java -cp "target/classes:lib/gson-2.10.1.jar" fr.univ.jalift.ascenseur.Main
-Ensuite pour tester la classe test :java -cp "target/classes:lib/gson-2.10.1.jar" fr.univ.jalift.ascenseurs.Test
+
+Ensuite pour tester la classe test :
+java -cp "target/classes:lib/gson-2.10.1.jar" fr.univ.jalift.ascenseurs.Test
 RESULTAT ATTENDU POUR test:java -cp "target/classes:lib/gson-2.10.1.jar" fr.univ.jalift.ascenseurs.Test
 Etage actuel: 1
 Etage actuel: 2
