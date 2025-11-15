@@ -1,0 +1,28 @@
+{"etages": 5,
+  "habitants": [
+    {
+      "nom": "Thilleli",
+      "etage": 2,
+      "depart": 8,
+      "retour": 17,
+      "vitesse": 2,
+      "relations_amitie": ["Awa"],
+      "visites": [
+        {
+          "ami": "Awa",
+          "jour": "mercredi",
+          "arrivee": 19,
+          "depart": 22
+        }
+      ]
+    },
+    {
+      "nom": "Awa",
+      "etage": 4,
+      "depart": 7,
+      "retour": 18,
+      "vitesse": 3,
+      "relations_amitie": ["Thilleli"]
+    }
+  ]
+}
