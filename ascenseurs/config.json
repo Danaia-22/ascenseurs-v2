@@ -6,7 +6,7 @@
       "depart": 8,
       "retour": 17,
       "vitesse": 2,
-      "relations_amitie": ["Awa"],
+      "relations_amitie": ["Awa","Danaia"],
       "visites": [
         {
           "ami": "Awa",
@@ -22,7 +22,15 @@
       "depart": 7,
       "retour": 18,
       "vitesse": 3,
-      "relations_amitie": ["Thilleli"]
+      "relations_amitie": ["Thilleli","Danaia"]
+    },
+    {
+      "nom": "Danaia",
+      "etage": 4,
+      "depart": 7,
+      "retour": 18,
+      "vitesse": 3,
+      "relations_amitie": ["Awa","Thilleli"]
     }
   ]
 }
